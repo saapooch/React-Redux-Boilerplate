@@ -1,0 +1,30 @@
+{
+  "name": "React-Boilerplate",
+  "version": "1.0.0",
+  "description": "Providing an easy start for react apps",
+  "main": "index.js",
+  "repository": "https://github.com/saapooch/React-Boilerplate",
+  "author": "Saahith",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development node server.js",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^0.1.2",
+    "cssnano": "^3.10.0",
+    "jquery": "^3.3.1",
+    "next": "^5.1.0",
+    "next-redux-wrapper": "^3.0.0",
+    "node-sass": "^4.8.3",
+    "normalize.css": "^8.0.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-redux": "^7.1.1",
+    "react-s-alert": "^1.4.1",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
+  }
+}

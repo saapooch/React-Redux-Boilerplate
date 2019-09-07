@@ -1,0 +1,43 @@
+@import "../variables";
+@import "../fonts.scss";
+
+.nav_bar_container {
+  background-color: black;
+  color: white;
+  position: fixed;
+  z-index: 100;
+  width:100%;
+  top:0px;
+
+  .nav_logo{
+      width:40px;
+      cursor: pointer;
+  }
+
+  ul{
+      float:right;
+      left:0px;
+
+      .nav_button {
+        transition: 0.3s ease;
+        font-size: 15px;
+        padding: 20px 0;
+        margin: 20px 10px;
+         text-decoration: none;
+      }
+
+      .nav_button:hover {
+        color: $blue;
+        text-decoration: none;
+        border-top: 4px solid $blue;
+        padding: 6px 0;
+      }
+    }
+
+  @media(max-width: $bp-small) {
+
+    .nav_logo{
+        width:30px;
+    }
+  }
+}

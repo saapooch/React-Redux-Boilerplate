@@ -1,0 +1,38 @@
+$blue: #5485ff;
+$orange: #FFCE54;
+
+
+$primary-0: $blue;
+$primary-1: $orange;
+$primary-2: white;
+
+// Backgrounds
+$bg-landing: $primary-2;
+
+
+// Breakpoints
+$bp-large: 993px;
+$bp-medium: 815px;
+$bp-small: 600px;
+$bp-xl: 1200px;
+$bp-tablet-large: 1024px;
+$bp-tablet-small: 768px;
+$bp-phone-xlarge: 414px;
+$bp-phone-large: 411px;
+$bp-phone-medium: 375px;
+$bp-phone-small: 360px;
+$bp-phone-xsmall: 320px;
+
+$border-radius: 5px;
+
+$nav-height: 70px;
+$nav-height-small: 56px;
+$nav-link-blue: #3194ED;
+$nav-grey: #444851;
+$nav-border-color: #252831;
+
+$sidebar-width: 300px;
+$sort-width: 120px;
+
+$padding-default: 15px;
+$margin-default: $padding-default;

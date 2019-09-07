@@ -1,0 +1,29 @@
+.pads{
+    padding:30px;
+}
+
+.result_pads{
+  padding: 0px 10px 20px;
+}
+
+.horizonatl-pads{
+  padding:0px 20px;
+}
+
+.center{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width:100%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+}
+
+.center-up{
+    position: fixed;
+    top:40%;
+    left: 50%;
+    width:100%;
+    transform: translate(-50%, -50%);
+}
